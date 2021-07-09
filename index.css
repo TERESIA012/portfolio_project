@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    list-style: none;
+    /*list-style: none;*/
     box-sizing: border-box;
 }
 .logo {
@@ -172,3 +172,63 @@ padding: 30px;
     font-size: 1.5em;
     background: 0 0 0 0.08;
 }
+/*my skills styling*/
+
+.my-skills {
+    font-family: 'Open Sans', sans-serif; 
+    list-style: none; 
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #1434a4;
+    height: 70vh;
+    margin-top: -4rem;
+}
+.skills1 {
+    width: 600px;
+    margin: 60px auto;
+    
+    
+}
+.skills{
+    background-color: #40d0ca;
+    height: 70vh;
+}
+.skl-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 35px;  
+}
+.skills li {
+    margin: 20px 0;
+}
+.bar {
+    background: #1434a4;
+    display: block;
+    height: 5px;
+    border: 2px solid 0 0 0 0.2;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #1434a4 ;
+}
+.bar span {
+    height: 4px;
+    float: left;
+    background: #010618;
+
+}
+.html {
+    width: 92%;
+}
+.css {
+    width: 75%;
+}
+.bootstrap {
+    width: 30%;
+}
+.script {
+    width: 20%;
+}
+
+
