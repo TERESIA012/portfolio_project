@@ -5,6 +5,9 @@
     /*list-style: none;*/
     box-sizing: border-box;
 }
+ html {
+     scroll-behavior: smooth;
+ }
 .logo {
     font-family: 'Open Sans', sans-serif;
     
@@ -14,6 +17,9 @@ nav {
     background-color: #f8f8f8;
     height: 80px;
     width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
 }
 label.logo {
     color: #000;
@@ -270,9 +276,11 @@ padding: 30px;
 }
 .txt {
     padding: 0 20px 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 .txt h3 {
     text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
 }
 .txt .gh {
     background-color: #1434a4;
@@ -284,5 +292,90 @@ padding: 30px;
     font-weight: 600;
     cursor: pointer;
     text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
 }
+/*.gh {
+    border: none;
+    outline: none;
+}
+    */
 
+.projects h2 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #545454;
+    line-height: 30px;
+    text-align:center; 
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+    top: -5rem;
+
+}
+/*@media (max-width:768px){
+    .grid{
+        grid-template-columns: repeat(1 1fr);
+    }
+}
+@media (max-width:500px){
+    .grid{
+        grid-template-columns: repeat(1 1fr);
+    }
+}*/
+.contimg {
+    bottom: -7rem;
+    margin-left: 5%;
+    box-shadow: 0 0 20px 0 #999;
+}
+.contact {
+    
+    background-color: #f8f8f8;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif; 
+}
+.contact-box {
+    width: 500px;
+   /* background-color:#fff;*/
+    box-shadow: 0 0 20px 0 #999;
+    margin-right: 10%;
+    
+    float: right;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   /* position: absolute;*/
+
+}
+form {
+    margin: 35px;
+
+}
+.input-field {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #777;
+
+}
+.textarea-field {
+    height: 150px;
+    padding-top: 10px;
+}
+.btnn {
+    border-radius: 20px;
+    background-color: #1434a4;
+    color: #f4c430;
+    margin-top: 18px;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+.contact h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+}
