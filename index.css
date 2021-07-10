@@ -184,7 +184,7 @@ padding: 30px;
     background-color: #f8f8f8;
     color: #1434a4;
     height: 70vh;
-    margin-top: -4rem;
+    margin-top: -3rem;
 }
 .skills1 {
     width: 600px;
@@ -233,5 +233,56 @@ padding: 30px;
 .script {
     width: 20%;
 }
+/*styling grid*/
+.projects {
+    background-color: #fff;
 
+}
+.fbi {
+    margin-top: 1rem;
+}
+.grid {
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-gap: 30px;
+    align-items: center;
+}
+.grid >article{
+    background-color: #fff;
+    border: none;
+    box-shadow: 2px 2px 6px 0 rgba(0,0,0,0.3 );
+    border-radius: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s;
+
+}
+.grid >article:hover {
+    transform: translateY(5px);
+    box-shadow: 2px 2px 26px 0 rgba(0,0,0,0.3 );
+
+}
+.grid >article>img {
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.txt {
+    padding: 0 20px 20px;
+}
+.txt h3 {
+    text-transform: uppercase;
+}
+.txt .gh {
+    background-color: #1434a4;
+    color: #f4c430;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+}
 
