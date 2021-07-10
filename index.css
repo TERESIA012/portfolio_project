@@ -331,7 +331,7 @@ padding: 30px;
     /*background-color: #f8f8f8;*/
     /*height: 40px;*/
     font-family: 'Open Sans', sans-serif; 
-    height: 500px;
+    height: 600px;
 }
 .contact-box {
     width: 500px;
@@ -382,4 +382,15 @@ form {
     text-align: center;
     font-size: 24px;
     font-weight: 900;
+}
+footer {
+    background-color: #f8f8f8;
+    color: #545454;
+    text-align: center;
+    
+}
+.social-media i {
+    color: black;
+    display: inline-block;
+    justify-content: space-between;
 }
