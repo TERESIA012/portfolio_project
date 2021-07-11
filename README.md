@@ -1,2 +1,3 @@
 # PORTFOLIO LANDING PAGE
-## The project 
+## The project was done by <span>Teresia King'ori</span>
+### The portfolio project is a brief description of myself. It contains a logo to describe the brand . It also has a home page and an about me page describing my education background.There is also a skillset section describing the technologies i'm good at.The last section is the contact section and it has a form and my social handles.
