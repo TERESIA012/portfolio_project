@@ -4,7 +4,7 @@
 ___
 ## The Technologies Used are;
 * HTML
-* css
+* CSS
 * BOOTSTRAP
 ___
 ### Installation Requirements
